@@ -1,0 +1,25 @@
+#stack and queue
+stack=[]
+stack.append("apple")
+stack.append("cherry")
+print("initial stack")
+print(stack)
+print("\n stack after elements are popped:")
+print(stack)
+my_stack=[]
+my_stack.append("x")
+my_stack.append("y")
+print(my_stack)
+print(my_stack.pop())
+queue=["apple","mango","cherry","banana"]
+stack.append("kiwi")
+stack.append("dragon")
+print(queue.pop())
+print(queue)
+file=open("new.txt","a")
+file.write("hello world")
+file.write("hii bhavya")
+file.write("\n this \n will \n add \n this \n line")
+file=open("new.txt","r")
+print(file.read(19))
+file.close()
